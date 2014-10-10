@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
+describe('Controller: FolderViewAccordianCtrl', function () {
 
   // load the controller's module
   beforeEach(module('anguiApp'));
 
-  var MainCtrl,
+  var FolderViewAccordianCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
+    FolderViewAccordianCtrl = $controller('FolderViewAccordianCtrl', {
       $scope: scope
     });
   }));

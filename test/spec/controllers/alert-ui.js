@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
+describe('Controller: AlertUiCtrl', function () {
 
   // load the controller's module
   beforeEach(module('anguiApp'));
 
-  var MainCtrl,
+  var AlertUiCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
+    AlertUiCtrl = $controller('AlertUiCtrl', {
       $scope: scope
     });
   }));

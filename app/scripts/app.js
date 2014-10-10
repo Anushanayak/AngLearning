@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc overview
- * @name angLearningApp
+ * @name anguiApp
  * @description
- * # angLearningApp
+ * # anguiApp
  *
  * Main module of the application.
  */
 angular
-  .module('angLearningApp', []);
+  .module('anguiApp', ['ui.bootstrap']);
