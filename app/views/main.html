@@ -2,33 +2,33 @@
 
     <accordion>
         
-        <accordion-group>
+        <accordion-group is-open="isopen1">
             <accordion-heading>
-                PERSONAL <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status, 'glyphicon-chevron-right': status}"></i>
+                PERSONAL <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen1, 'glyphicon-chevron-right': !isopen1}"></i>
             </accordion-heading>
             Personal folders goes here
         </accordion-group>
         
-        <accordion-group is-open="status.open">
+        <accordion-group is-open="isopen2">
             <accordion-heading>
-                SHARED <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status, 'glyphicon-chevron-right': status}"></i>
+                SHARED <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen2, 'glyphicon-chevron-right': !isopen2}"></i>
             </accordion-heading>
             Shared folders goes here
         </accordion-group>
         
-        <accordion-group>
+        <accordion-group is-open="isopen3">
             <accordion-heading>
-                COMPANY <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status, 'glyphicon-chevron-right': status}"></i>
+                COMPANY <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen3, 'glyphicon-chevron-right': !isopen3}"></i>
             </accordion-heading>
             Company folders goes here
         </accordion-group>
         
-        <accordion-group>
+        <accordion-group is-open="isopen4">
             <accordion-heading>
-                PREMIUM <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status, 'glyphicon-chevron-right': status}"></i>
+                PREMIUM <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': isopen4, 'glyphicon-chevron-right': !isopen4}"></i>
             </accordion-heading>
             Premium folders goes here
-        </accordion-group>    
+        </accordion-group> 
         
     </accordion>
     

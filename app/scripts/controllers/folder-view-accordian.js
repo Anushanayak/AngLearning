@@ -13,8 +13,10 @@ angular.module('anguiApp')
             $scope.status = {
                 open: true
             };
-            $scope.$watch('status.open', function (isOpen) {
-
+            $scope.$watch('first.open', function (isOpen) {
+                if (!isOpen) {
+                    console.log('First group was opened');
+                }
             });
             $scope.awesomeThings = [
                 'HTML5 Boilerplate',
